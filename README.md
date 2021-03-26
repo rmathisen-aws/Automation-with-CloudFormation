@@ -34,3 +34,13 @@ LatestAmiId: default value \
 SSHandWebLocation: default value \
 Next
 
+Configure Stack Options: these will be discussed later. \
+Next
+
+Review cfndemo1: \
+Scroll to bottom
+
+Capabilities: check box to acknowledge \
+
+CFN views some resources it creates as "high risk". We are creating an Identity (IAM Role) \
+Because it's an Identity, it's changing something that provides access to AWS, and CFN wants us to explicitly acknowledge that we want to create this resource.
