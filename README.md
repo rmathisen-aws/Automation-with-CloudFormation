@@ -49,3 +49,6 @@ Because it's an Identity, it's changing something that provides access to AWS, a
 Click the Refresh button to see the status being updated. \
 The creation of these Stacks will take a few min. \
 The EC2 Instance will be the last component the Stack will create.
+
+Click the Outputs tab \
+Notice the Outputs will perfectly match the Outputs that were specified in the yaml template!
