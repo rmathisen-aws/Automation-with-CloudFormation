@@ -52,3 +52,6 @@ The EC2 Instance will be the last component the Stack will create.
 
 Click the Outputs tab \
 Notice the Outputs will perfectly match the Outputs that were specified in the yaml template!
+
+The same is true for the Resources tab. \
+Click any of the Physical ID's to be redirected to those resources (ex: EC2Instance; InstanceSecurityGroup)
