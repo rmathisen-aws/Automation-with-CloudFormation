@@ -67,7 +67,8 @@ We can also apply the same template in other regions
 \
 **Clean Up!!**\
 CloudFormation → Stacks \
-Select the cfndemo1 Stack → Delete → Delete Stack
+Select the cfndemo1 Stack → Delete → Delete Stack \
+Observe the deletion progress in the Events tab (hit that Refresh button)
 
 This Deletion will delete all of the Logical Resources, and then it deletes all of the corresponding Physical Resources. \
 This is another powerful feature. \
