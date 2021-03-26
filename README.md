@@ -1,6 +1,16 @@
 # Automation with CloudFormation
 
-**Create & Configure an EC2 Instance using CFN:** \
+**Create & Configure an EC2 Instance using CFN:**
+
+We know that we'll be creating an EC2 Instance, so lets start by creating a Key Pair. \
+We won't be using this Key Pair to connect to the Instance, but it will be required when we apply the CFN template.
+
+EC2 → Network & Security → Key Pairs → Create Key Pair\
+Name: A4L-Key \
+File Format: pem \
+Create Key Pair
+
+\
 CloudFormation → Create Stack
 
 Prepare Template: Template is ready \
