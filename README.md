@@ -23,7 +23,7 @@ Whenever you Upload a template to CloudFormation, it will upload the template to
 You may notice a lot of buckets with the prefix cf- that get created in a region automatically. \
 You can tidy things up and delete these if you want to.
 
-Stack name: cfndemo1 \
+Stack name: cfndemo1
 
 Parameters: \
 These are the Parameters that are specified within the ec2instance.yaml template! \
@@ -41,6 +41,10 @@ Review cfndemo1: \
 Scroll to bottom
 
 Capabilities: check box to acknowledge \
+Create Stack
 
 CFN views some resources it creates as "high risk". We are creating an Identity (IAM Role) \
 Because it's an Identity, it's changing something that provides access to AWS, and CFN wants us to explicitly acknowledge that we want to create this resource.
+
+Click the Refresh button to see the status being updated. \
+The creation of these Stacks will take a few min.
