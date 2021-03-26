@@ -30,3 +30,7 @@ These are the Parameters that are specified within the ec2instance.yaml template
 The template was written to have dafault values, which is the reason why there are pre-populated fields!
 
 KeyName: A4L-Key \
+LatestAmiId: default value \
+SSHandWebLocation: default value \
+Next
+
