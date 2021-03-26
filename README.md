@@ -68,8 +68,9 @@ We can also apply the same template in other regions
 **Clean Up!!**\
 CloudFormation → Stacks \
 Select the cfndemo1 Stack → Delete → Delete Stack \
-Observe the deletion progress in the Events tab (click Refresh button) \
-Confirm Deletion: EC2 Instance should be Terminated
+Observe the deletion progress in the Events tab (click Refresh button)
+
+Confirm Deletion: EC2 Instance should be Terminated; Stack should be deleted
 
 This Deletion will delete all of the Logical Resources, and then it deletes all of the corresponding Physical Resources. \
 This is another powerful feature. \
