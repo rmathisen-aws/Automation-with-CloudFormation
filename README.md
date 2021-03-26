@@ -16,10 +16,17 @@ CloudFormation → Create Stack
 
 Prepare Template: Template is ready \
 Specify Template: Upload a template file \
-Choose File: Locate your ec2instance.yaml template
+Choose File: Locate your ec2instance.yaml template \
+Next
 
 Whenever you Upload a template to CloudFormation, it will upload the template to an S3 Bucket that CFN creates automatically. \
 You may notice a lot of buckets with the prefix cf- that get created in a region automatically. \
 You can tidy things up and delete these if you want to.
 
+Stack name: cfndemo1 \
 
+Parameters: \
+These are the Parameters that are specified within the ec2instance.yaml template! \
+The template was written to have dafault values, which is the reason why there are pre-populated fields!
+
+KeyName: A4L-Key \
