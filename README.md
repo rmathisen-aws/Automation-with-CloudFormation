@@ -47,4 +47,5 @@ CFN views some resources it creates as "high risk". We are creating an Identity 
 Because it's an Identity, it's changing something that provides access to AWS, and CFN wants us to explicitly acknowledge that we want to create this resource.
 
 Click the Refresh button to see the status being updated. \
-The creation of these Stacks will take a few min.
+The creation of these Stacks will take a few min. \
+The EC2 Instance will be the last component the Stack will create.
