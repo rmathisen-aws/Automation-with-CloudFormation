@@ -56,4 +56,19 @@ Notice the Outputs will perfectly match the Outputs that were specified in the y
 The same is true for the Resources tab. \
 Click any of the Physical ID's to be redirected to those resources (ex: EC2Instance; InstanceSecurityGroup)
 
+**Create another EC2 Instance using the same YAML template:** \
+Create Stack → With new resources (standard)
 
+This is one of the powerful features of CloudFormation. \
+Apply the same template multiple times to create the same set of consistant infrastructure! \
+We can also apply the same template in other regions
+
+\
+\
+**Clean Up!!**\
+CloudFormation → Stacks \
+Select the cfndemo1 Stack → Delete → Delete Stack
+
+This Deletion will delete all of the Logical Resources, and then it deletes all of the corresponding Physical Resources. \
+This is another powerful feature. \
+CloudFormation cleans up after itself!
